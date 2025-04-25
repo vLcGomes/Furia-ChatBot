@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Chatbot Furia</title>
 </head>
 <body>
-  <main>
+  <main id="chat-bot">
     <header id="chat-bot-header">
       <img src=''>
       <h1 id="chat-bot-title">ChatBot</h1>
@@ -14,9 +15,11 @@
     </header>
     <div id="chat-bot-content"></div>
     <footer id="chat-bot-footer">
-      <input type="text" id="user-message">
-      <button id="send-arquive"></button>
-      <button id="send-message"></button>
+      <div id='message-box'>
+        <input type="text" id="user-message">
+        <button id="send-arquive"></button>
+        <button id="send-message"></button>
+      </div>
     </footer>
   </main>
 </body>
