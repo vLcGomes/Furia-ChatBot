@@ -8,8 +8,10 @@
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  padding: 80px;
   height: 100vh;
 }
 
@@ -18,6 +20,7 @@ body {
   width: 400px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 5px #000;
+  margin-bottom: 20px;
 }
 
 #chat-bot-header {
@@ -156,7 +159,7 @@ body {
 }
 
 #send-arquive:hover {
-  background: #dddddda9;
+  background: #a1a1a1a9;
 }
 
 #send-message {
@@ -175,7 +178,7 @@ body {
 }
 
 #send-message:hover {
-  background: #dddddda9;
+  background: #a1a1a1a9;
 }
 
 #user-input {
@@ -195,4 +198,17 @@ body {
 #user-input:focus {
   border: none;
   outline: none;
+}
+
+#chat-popup {
+  min-width: 100px;
+  min-height: 100px;
+  background: #aaa;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-image: url('./imgs/logo-furia.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
