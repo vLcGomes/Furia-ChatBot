@@ -22,17 +22,20 @@
       <i id='chat-bot-header-close' class="fa-solid fa-angle-down"></i>
     </header>
     <div id="chat-bot-content">
-      <div class="bot-message">Essa é uma mensagem de teste</div>
+      <div id="bot-message-box">
+        <img id='bot-message-img' src="imgs/logo-furia.png">
+        <div class="bot-message">Essa é uma mensagem de teste</div>
+      </div>
       <div class="user-message">Essa é um resposta para fins de teste</div>
     </div>
     <footer id="chat-bot-footer">
       <div id='message-box'>
-        <input type="text" id="user-input">
-        <button id="send-arquive"></button>
-        <button id="send-message"></button>
+        <input type="text" id="user-input" placeholder="Message...">
+        <button id="send-arquive"><i id='attachment-icon' class="fa-solid fa-paperclip"></i></button>
+        <button id="send-message"><i id='arrow-icon' class="fas fa-arrow-right"></i></button>
       </div>
     </footer>
   </main>
-  <script src="index.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

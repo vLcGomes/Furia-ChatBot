@@ -1,0 +1,6 @@
+const headerClose = document.getElementById('chat-bot-header-close')
+const botMessage = document.getElementsByClassName('bot-message')
+const userMessage = document.getElementsByClassName('user-message')
+const inputMessage = document.getElementById('user-input')
+const sendArquive = document.getElementById('send-arquive')
+const sendMessage = document.getElementById('send-message')
